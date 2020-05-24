@@ -17,6 +17,12 @@ class Info(commands.Cog, name="Info"):
         """Displays link to our discord"""
         embed = discord.Embed(title="Our discord", url="https://discord.gg/ArBTCSC", description="Click to get a link to our discord", color=discord.Color.blue())
         await ctx.send(embed=embed)
+        
+    @commands.command()
+    async def bot(self, ctx):
+        """Displays link to bots github"""
+        embed = discord.Embed(title="Bot code", url="https://github.com/Vitzual/proxima-bot", description="You can check out my code, it's open source!", color=discord.Color.blue())
+        await ctx.send(embed=embed)
 
 def setup(bot):
     bot.add_cog(Info(bot))
