@@ -1,6 +1,4 @@
-##############################
 #### Proxima | By Vitzual ####
-##############################
 
 This is an open source bot that is being developed for Proxima Studios. You are allowed to use any code you
 find here for your own projects.
